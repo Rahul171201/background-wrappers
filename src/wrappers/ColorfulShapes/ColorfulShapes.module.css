@@ -1,0 +1,85 @@
+.wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(222, 222, 222, 0.659);
+  position: relative;
+}
+.contentWrapper {
+  position: relative;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border-radius: 19px;
+  position: absolute;
+}
+
+.squareOne {
+  background-image: linear-gradient(45deg, rgb(253, 138, 7), rgb(249, 15, 15));
+  rotate: 30deg;
+  top: 5vh;
+  left: 10vw;
+}
+
+.squareTwo {
+  background-image: linear-gradient(45deg, rgb(9, 223, 41), rgb(5, 97, 15));
+  rotate: 45deg;
+  right: 5vw;
+  top: 10vh;
+}
+
+.squareThree {
+  background-image: linear-gradient(45deg, rgb(36, 239, 205), rgb(4, 123, 163));
+  rotate: 145deg;
+  top: 20vh;
+  right: 40vw;
+}
+
+.squareFour {
+  background-image: linear-gradient(45deg, rgb(255, 210, 7), rgb(205, 167, 42));
+  rotate: 60deg;
+  left: 30vw;
+  top: 50vh;
+}
+
+.squareFive {
+  background-image: linear-gradient(45deg, rgb(182, 94, 233), rgb(64, 7, 101));
+  rotate: 110deg;
+  right: 15vw;
+  bottom: 5vh;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circleOne {
+  background-image: linear-gradient(45deg, rgb(253, 138, 7), rgb(249, 15, 15));
+  bottom: 20vh;
+  right: 10vw;
+}
+
+.circleTwo {
+  background-image: linear-gradient(45deg, rgb(9, 223, 41), rgb(5, 97, 15));
+  left: 10vw;
+  bottom: 10vh;
+}
+.circleThree {
+  background-image: linear-gradient(45deg, rgb(36, 239, 205), rgb(4, 123, 163));
+  bottom: 50vh;
+  left: 20vw;
+}
+.circleFour {
+  background-image: linear-gradient(45deg, rgb(255, 210, 7), rgb(205, 167, 42));
+  left: 40vw;
+  top: 5vh;
+}
+.circleFive {
+  background-image: linear-gradient(45deg, rgb(182, 94, 233), rgb(64, 7, 101));
+  right: 10vw;
+  bottom: 40vh;
+}
